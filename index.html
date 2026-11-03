@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Editorial Portfolio Loader -->
+
+<div class="site-loader" id="siteLoader">
+  <div class="loader-top">
+    <span>SUVAM BEHERA®</span>
+    <span>PORTFOLIO — 2026</span>
+  </div>
+
+  <div class="loader-layout">
+    <div class="loader-visual">
+      <img
+        src="images/hey-u.jpg"
+        alt=""
+        class="loader-sketch"
+      />
+      <span class="loader-ground"></span>
+    </div>
+
+    <div class="loader-info">
+      <p class="loader-eyebrow">A FEW CURIOSITIES. ONE PORTFOLIO....</p>
+
+      <div class="loader-number">
+        <span id="loaderNumber">000</span><span class="loader-percent">%</span>
+      </div>
+
+      <div class="loader-progress">
+        <span id="loaderProgress"></span>
+      </div>
+
+      <p class="loader-caption">
+        CODE <i>·</i> CAMERA <i>·</i> OBSERVE <i>·</i> BUILD
+      </p>
+
+      <p class="loader-status" id="loaderStatus">
+        A FEW CURIOSITIES. ONE PORTFOLIO....
+      </p>
+    </div>
+  </div>
+
+  <div class="loader-bottom">
+    <span>QUESTION EVERYTHING. BUILD SOMETHING.</span>
+    <span>PLEASE WAIT <span id="loaderSmallNumber">000</span></span>
+  </div>
+</div>
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Suvam Behera — computer science graduate building practical software, AI and data projects.">
+  <title>Suvam Behera — Selected Work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+   <a class="wordmark" href="#top" aria-label="Suvam Behera home"><img src="./images/camera-logo.png" alt="SB"></a>
+    <div class="header-note">CODE · CAMERA · BENGALURU · INDIA </div><time id="live-time" class="live-time"></time>
+</div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">MENU <span>＋</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#work">WORK <span>01</span></a><a href="#about">ABOUT <span>02</span></a><a href="#contact">CONTACT <span>03</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="eyebrow"><span class="status-dot"></span>OPEN TO WORK</div>
+      <h1>I build things<br>that make <em>sense.</em></h1>
+      <div class="hero-bottom">
+        <p class="hero-intro">I’m Suvam — I ask 'why does this exist?' before I ask 'how does this work?' CS background, product-first thinking...</p>
+        <a class="text-link" href="resume.pdf" target="_blank" rel="noreferrer">SEE MY WORK ON PAPER <span>↗</span></a>
+      </div>
+      <div class="hero-index"><span>PORTFOLIO / 2026</span><span>SCROLL TO EXPLORE ↓</span><span>01 — 05</span></div>
+    </section>
+
+    <section class="work section-wrap" id="work">
+      <div class="work-scroll-space" id="work-scroll-space">
+        <div class="work-sticky">
+      <div class="section-heading"><div><p class="eyebrow">A FEW THINGS I'VE DOCUMENTED</p><h2>The Case <em>Files.</em></h2></div><p class="heading-aside">“Work built for the person reading it, not the person who made it.”</p></div>
+      <div class="project-track" id="project-track">
+<article class="project project-featured" data-project>
+          <a class="project-visual visual-watermark" href="#project-watermark" aria-label="View SecurePSO project details"><div class="visual-top"><span>01 / RESEARCH PROJECT</span><span>PYTHON</span></div><div class="repo-art"><span class="repo-number">01</span><strong>DIGITAL - <br>WATERMARKING</strong><i>PSO · TRACK</i></div><span class="visual-caption">MULTIMEDIA SECURITY / OPTIMIZATION</span></a>
+        <div class="project-meta"><div><p class="project-kind">IMAGE PROCESSING · OPTIMIZATION</p><h3>SecurePSO — Digital Watermarking</h3><p class="project-description">A digital watermarking project exploring hybrid DWT, SVD and DCT transforms, with Particle Swarm Optimization to tune the embedding process.</p></div><a class="round-arrow" href="#project-watermark" aria-label="Read SecurePSO details">↗</a></div>
+        <div class="project-detail" id="project-watermark"><p><b>Focus</b> Robust watermark embedding and optimization.</p><p><b>Stack</b> Python · DWT · DCT · PSO · Streamlit</p><p><b>Repository</b> <a href="https://github.com/suvam14-py/digital-watermarking-pso" target="_blank" rel="noreferrer">View on GitHub ↗</a></p><p><b>Next step</b> Add measured pso evaluation results when ready.</p></div>
+      </article>
+        <article class="project" data-project>
+          <a class="project-visual visual-gender" href="#project-gender" aria-label="View gender and age detection project details"><div class="visual-top"><span>02 / COMPUTER VISION</span><span>PYTHON</span></div><div class="repo-art"><span class="repo-number">02</span><strong>FACE -<br>ANALYSIS</strong><i>AGE · GENDER</i></div><span class="visual-caption">GENDER & AGE DETECTION</span></a>
+          <div class="project-meta"><div><p class="project-kind">COMPUTER VISION · PYTHON</p><h3>Gender & Age Detection</h3><p class="project-description">A Python project focused on detecting age and gender from facial input. Open the repository for the implementation and setup details.</p></div><a class="round-arrow" href="#project-gender" aria-label="Read gender and age detection details">↗</a></div>
+          <div class="project-detail" id="project-gender"><p><b>Focus</b> Facial analysis for age and gender estimation.</p><p><b>Language</b> Python · Machine Learning · Hugging face</p><p><b>Repository</b> <a href="https://github.com/suvam14-py/gender-age-detection" target="_blank" rel="noreferrer">View on GitHub ↗</a></p><p><b>Next step</b> Fetched age and gender data from facial input for real time user profiling.</p></div>
+        </article>
+        <article class="project" data-project>
+          <a class="project-visual visual-hr" href="#project-hr" aria-label="View HR Task System project details"><div class="visual-top"><span>03 / WORKFLOW TOOL</span><span>PYTHON</span></div><div class="repo-art"><span class="repo-number">03</span><strong>HR -<br>TASKS</strong><i>ORGANIZE · TRACK</i></div><span class="visual-caption">HR TASK SYSTEM</span></a>
+          <div class="project-meta"><div><p class="project-kind">PYTHON · APPLICATION</p><h3>HR Task System</h3><p class="project-description">A repository for an HR task-management system. Explore the source to see the features, structure, and implementation.</p></div><a class="round-arrow" href="#project-hr" aria-label="Read HR Task System details">↗</a></div>
+          <div class="project-detail" id="project-hr"><p><b>Focus</b> HR-related task organization</p><p><b>Language</b> Python · SQL · Streamlit</p><p><b>Repository</b> <a href="https://github.com/suvam14-py/HR-Task-System" target="_blank" rel="noreferrer">View on GitHub ↗</a></p><p><b>Next step</b> Integrated task assignment workflows and automated HR status tracking.</p></div>
+        </article>
+        <article class="project" data-project>
+          <a class="project-visual visual-workforce" href="#project-workforce" aria-label="View Smart Workforce Productivity System project details"><div class="visual-top"><span>04 / PRODUCTIVITY</span><span>PYTHON</span></div><div class="repo-art"><span class="repo-number">04</span><strong>WORK -<br>BETTER</strong><i>WORKFORCE · PRODUCTIVITY</i></div><span class="visual-caption">SMART WORKFORCE PRODUCTIVITY</span></a>
+          <div class="project-meta"><div><p class="project-kind">PYTHON · PRODUCTIVITY</p><h3>Smart Workforce Productivity System</h3><p class="project-description">A Python project centered on workforce productivity. The repository contains the source and further project specifics.</p></div><a class="round-arrow" href="#project-workforce" aria-label="Read workforce productivity details">↗</a></div>
+          <div class="project-detail" id="project-workforce"><p><b>Focus</b> Workforce productivity workflows</p><p><b>Language</b> Python · Streamlit</p><p><b>Repository</b> <a href="https://github.com/suvam14-py/Smart_Workforce_Productivity_System" target="_blank" rel="noreferrer">View on GitHub ↗</a></p><p><b>Next step</b> Aggregated productivity metrics to generate real-time performance analytics.</p></div>
+        </article>
+        <article class="project" data-project>
+          <a class="project-visual visual-payroll" href="#project-payroll" aria-label="View AI Employee Payroll Processing System project details"><div class="visual-top"><span>05 / BUSINESS SYSTEM</span><span>PYTHON</span></div><div class="repo-art"><span class="repo-number">05</span><strong>PAYROLL -<br>PROCESS</strong><i>EMPLOYEE · PAYROLL</i></div><span class="visual-caption">AI EMPLOYEE PAYROLL PROCESSING</span></a>
+          <div class="project-meta"><div><p class="project-kind">PYTHON · AUTOMATION</p><h3>AI Employee Payroll Processing System</h3><p class="project-description">A Python repository for an employee payroll-processing system with AI in its project title. Review the repository for exact capabilities.</p></div><a class="round-arrow" href="#project-payroll" aria-label="Read payroll processing details">↗</a></div>
+          <div class="project-detail" id="project-payroll"><p><b>Focus</b> Employee payroll processing</p><p><b>Language</b> Python · SQL · Streamlit</p><p><b>Repository</b> <a href="https://github.com/suvam14-py/AI-Employee-Payroll-Processing-System" target="_blank" rel="noreferrer">View on GitHub ↗</a></p><p><b>Next step</b> Automated salary calculations and payroll reconciliation with audit logs.</p></div>
+        </article>
+        </div>
+      <div class="project-note"><span>THE FILE ON ME.</span><p> #Curious, stubborn, and weirdly good at finding what’s broken - </p>
+</div>
+        </div><!-- /.work-sticky -->
+      </div><!-- /.work-scroll-space -->
+    </section>
+
+   <section class="approach section-wrap" id="about">
+  <div class="eyebrow">A LITTLE ABOUT HOW I WORK</div>
+
+  <div class="approach-grid about-card-grid">
+    <h2>
+      Curious by default.
+      <br>
+      <em>Practical by design.</em>
+    </h2>
+
+    <button
+      class="about-id-card"
+      id="aboutIdCard"
+      type="button"
+      aria-haspopup="dialog"
+      aria-controls="aboutIdDialog"
+    >
+      <span class="id-card-top">
+        <i></i><i></i><i></i>
+        <small>PROFILE / 001</small>
+      </span>
+
+     
+<span class="id-card-portrait">
+  <img
+    src="./images/SUVAM .jpg"
+    alt="Suvam Behera walking with a camera"
+  >
+</span>
+</span>
+
+
+      <span class="id-card-name">SUVAM BEHERA</span>
+      <span class="id-card-role">CODE · OBSERVER</span>
+
+      <span class="id-card-bottom">
+        <span>GET TO KNOW ME ↗</span>
+        <b>↗</b>
+      </span>
+    </button>
+  </div>
+
+  <!-- PROFILE DETAILS POPUP -->
+  <div
+    class="about-id-backdrop"
+    id="aboutIdDialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="aboutIdTitle"
+    aria-hidden="true"
+  >
+    <div class="about-id-panel">
+      <button
+        class="about-id-close"
+        id="aboutIdClose"
+        type="button"
+        aria-label="Close profile"
+      >×</button>
+
+      <p class="eyebrow">PROFILE / SUVAM</p>
+
+      <h3 id="aboutIdTitle">
+        Behind the code.
+        <br>
+        <em>Beyond the obvious.</em>
+      </h3>
+
+      <p>
+        I’m Suvam. I ask questions, break things (sometimes intentionally), and get a little too curious about how things work.
+      </p>
+
+      <p>
+        Somewhere between AI, data, and backend development, I found myself fascinated by turning “What if?” into “Wait, that actually works.”</p>
+
+
+      <p>I like solving problems, questioning the obvious, and building things that make people’s lives a little easier. The FUN part? There’s almost always a better way to do 'SOMETHING'.
+</p>
+
+      <div class="about-id-facts">
+        <div>
+          <small>CURRENTLY OBSESSING OVER</small>
+          <span>AI · DATA · BACKEND</span>
+        </div>
+
+        <div>
+          <small>THE FORMAL STUFF</small>
+          <span>B.Tech CSE · KIIT University</span>
+        </div>
+
+        <div>
+          <small>MY USUAL SUSPECTS</small>
+          <span>Python · SQL · AI · CLAUDE</span>
+        </div>
+      </div>
+      <div class="about-id-beyond">
+  <p class="eyebrow">WHEN THE CODE TAKES A BREAK -</p>
+
+  <p>
+    I’m usually chasing a visual idea, creating content, noticing random little details, or finding a story in something most people scroll past.</p>
+<P>Apparently, my curiosity doesn’t have an off switch. Neither does my camera roll.</P>
+  
+</div>
+
+      <div class="about-id-actions">
+        <a href="#contact" class="text-link" id="aboutIdConnect">
+          GOT SOMETHING INTERESTING? LET’S TALK ↗
+        </a>
+
+        <button
+          class="text-link"
+          type="button"
+          id="aboutIdDone"
+        >
+          BACK TO PROFILE ↗
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORKING PRINCIPLES -->
+  <div class="principles">
+    <div>
+      <span>01</span>
+      <b>Understand the problem</b>
+      <p>The bug is probably not where you think it is.</p>
+    </div>
+
+    <div>
+      <span>02</span>
+      <b>Build with intention</b>
+      <p>It’s not a feature if nobody asked for it.</p>
+    </div>
+
+    <div>
+      <span>03</span>
+      <b>Improve through feedback</b>
+      <p>It passed locally. I asked no further questions.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="toolkit section-wrap">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">TOOLS I WORK WITH</p>
+      <h2>The <em>toolkit.</em></h2>
+    </div>
+
+    <p class="heading-aside">
+      A curious mind, an evolving toolkit.
+      Always exploring what's possible.
+    </p>
+  </div>
+
+  <div class="tool-list">
+    <div>
+      <span>LANGUAGES</span>
+      <p>
+        Python <i>·</i> SQL <i>·</i> JavaScript
+        <i>·</i> Java <i>·</i> C++
+      </p>
+    </div>
+
+    <div>
+      <span>DATA & VISUALIZATION</span>
+      <p>
+        Excel <i>·</i> Power BI <i>·</i> Pandas
+        <i>·</i> NumPy <i>·</i> Matplotlib
+        <i>·</i> Streamlit
+      </p>
+    </div>
+
+    <div>
+      <span>BACKEND & DATABASES</span>
+      <p>
+        FastAPI <i>·</i> Node.js 
+        <i>·</i> MySQL <i>·</i> SQLite
+        <i>·</i> REST APIs
+      </p>
+    </div>
+
+    <div>
+      <span>AI & TOOLS</span>
+      <p>
+        </i> OpenCV <i>·</i> Scikit-learn
+        <i>·</i> Git <i>·</i> GitHub <i>·</i> Jupyter
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section class="contact section-wrap" id="contact"><p class="eyebrow">HAVE A GOOD PROBLEM?</p><h2>Let's make<br>something <em>useful.</em></h2><div class="contact-bottom"><p>Got a messy problem,or the ONE nobody wants to touch? Bring it to Me. If it needs thinking, building and a bit of storytelling, I’m in.</p><div class="contact-links"><a href="mailto:suvamb014@gmail.com">EMAIL ME ↗</a><a href="https://www.linkedin.com/in/suvambeheraofficial/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/suvam14-py" target="_blank" rel="noreferrer">GITHUB ↗</a></div></div></section>
+  </main>
+<footer class="wordmark">
+  <a href="#top" class="footer-brand" aria-label="Suvam Behera home">
+    <img src="./images/camera-logo.png" alt="SB">
+  </a>
+
+  <span class="footer-credit">DESIGNED & BUILT WITH CURIOSITY</span>
+
+  <a href="#top" class="footer-top">BACK TO TOP ↑</a>
+
+  <span class="footer-copyright">
+    ©<span id="year">2026</span> SUVAM BEHERA
+  </span>
+</footer>
+</html>
